@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: poppins, sans-serif, serif;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited{
+    color: red;
+}
+
+a:hover {
+    text-shadow: 1px 3px 4px hotpink;
+}
+
+#red-text{
+    color: red;
+    text-shadow: 1px 1px 4px hotpink;
+}
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+
+    margin-inline-start: 2em;
+    margin-inline-end: 2em;
+
+    margin-block-start: 1em;
+}
+
+.navigation-container{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.main-title{
+    display: flex;
+    justify-content: center;
+
+    padding-block-start: 5em;
+    padding-block-end: 5em;
+
+    color: red;
+    text-shadow: 1px 1px 4px hotpink;  
+}
+
+.section-container{
+  display: flex;
+  justify-content: space-around;
+
+    padding-inline-start: 2em;
+    padding-block-end: 2em;
+    
+    margin-block-end: 2em;
+
+    border-block-end: 1px solid;
+}
+
+.article-title{
+    margin-block-end: 1em;
+}
+
+.article-container{
+    padding-inline-end: 2em;
+}
+
+.container-projects{
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-list{
+    color: red;
+}
+
+.courses-list:hover {
+    text-shadow: 1px 1px 1px pink;
+}
+
+.reviews-section{
+    margin-inline: 2em;
+    margin-block-end: 2em
+}
+
+.reviews-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-title{
+    margin-block-end: 1em;
+}
+
+.card-list{
+    display: flex;
+    gap: 2em;
+}
+
+.list-item-card{
+    display: flex;
+    flex-direction: column;
+
+    border: 1px solid black;
+    border-radius: 2em;
+
+    padding-inline: 1em;
+    padding-block: 2em;
+
+    gap: 10px;
+}
+
+.list-item-card{
+    font-weight: 500;
+}
+
+.list-item-card > .gray-text{
+    color: #D2D2D2 ;
+}
+
+footer{
+    justify-self: center;
+
+    padding-block: 4em;
+}
+
+footer > p {
+    font-size: 1.5em;
+
+    color: red;
+    text-shadow: 1px 1px 1px hotpink;
+}
