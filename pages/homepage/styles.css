@@ -71,9 +71,14 @@ a:hover {
     padding-inline-end: 2em;
 }
 
-.container-projects{
+.projects-container{
     display: flex;
     flex-direction: column;
+
+    gap: 0.5em;
+}
+
+.projects-container  a{
 }
 
 .courses-list{
